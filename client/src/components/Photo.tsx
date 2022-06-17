@@ -8,7 +8,7 @@ import {
 } from '@mui/material'
 
 //components
-
+import PhotoModal from './PhotoModal'
 //constants
 import { GRID_GAP } from '../constants'
 
@@ -48,7 +48,16 @@ export default function Photo({
 
   return (
     <>
-
+      <PhotoModal
+        open={open}
+        handleClose={handleClose}
+        image={image}
+        title={title}
+        description={description}
+        family={family}
+        collectiveNoun={collectiveNoun}
+        genus={genus}
+      />
 
       <Grow
         in={true}

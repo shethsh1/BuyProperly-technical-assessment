@@ -8,7 +8,7 @@ import {
 import { useAppSelector, useAppDispatch } from '../redux/hooks'
 import { fetchPhotos } from '../redux/photoSlice'
 import type { Photo as PhotoType } from '../redux/photoSlice'
-// components
+//components
 import Loading from './Loading'
 import Photo from './Photo'
 //constants
@@ -62,7 +62,6 @@ export default function Photos() {
               imageUrl={photo.ImageURLs}
               timeout={timeout}
             />
-
           )
         })
       }
