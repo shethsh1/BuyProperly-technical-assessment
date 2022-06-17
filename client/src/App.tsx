@@ -1,11 +1,17 @@
 import React from 'react';
+import {
+  Box
+} from '@mui/material'
+
+//components
+import Nav from './components/Nav'
 
 function App() {
   return (
-    <div>
-      hello world
+    <Box component="main">
+      <Nav />
 
-    </div>
+    </Box>
   );
 }
 
