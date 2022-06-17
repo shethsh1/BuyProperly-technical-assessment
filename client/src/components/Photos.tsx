@@ -10,6 +10,7 @@ import { fetchPhotos } from '../redux/photoSlice'
 import type { Photo as PhotoType } from '../redux/photoSlice'
 // components
 import Loading from './Loading'
+import Photo from './Photo'
 //constants
 import { GRID_GAP } from '../constants'
 import { GROW_TIMEOUT } from '../constants'
@@ -49,9 +50,18 @@ export default function Photos() {
         photos.map((photo: PhotoType) => {
           timeout += 250
           return (
-            <div>
-              photo here
-            </div>
+            <Photo
+              key={photo.Id}
+              title={photo.Title}
+              description={photo.Description}
+              family={photo.Family}
+              collectiveNoun={photo.CollectiveNoun}
+              genus={photo.Genus}
+              width={photo.Width}
+              height={photo.Height}
+              imageUrl={photo.ImageURLs}
+              timeout={timeout}
+            />
 
           )
         })
