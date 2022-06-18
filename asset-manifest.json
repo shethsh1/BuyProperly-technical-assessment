@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BuyProperly-technical-assessment/static/css/main.9a11eb4c.css",
-    "main.js": "/BuyProperly-technical-assessment/static/js/main.b706e01b.js",
+    "main.js": "/BuyProperly-technical-assessment/static/js/main.f7eab025.js",
     "index.html": "/BuyProperly-technical-assessment/index.html",
     "main.9a11eb4c.css.map": "/BuyProperly-technical-assessment/static/css/main.9a11eb4c.css.map",
-    "main.b706e01b.js.map": "/BuyProperly-technical-assessment/static/js/main.b706e01b.js.map"
+    "main.f7eab025.js.map": "/BuyProperly-technical-assessment/static/js/main.f7eab025.js.map"
   },
   "entrypoints": [
     "static/css/main.9a11eb4c.css",
-    "static/js/main.b706e01b.js"
+    "static/js/main.f7eab025.js"
   ]
 }
