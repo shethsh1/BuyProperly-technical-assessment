@@ -7,6 +7,7 @@ import {
 //components
 import Nav from './components/Nav'
 import Photos from './components/Photos'
+import TopButton from './components/TopButton'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Container maxWidth="xl" disableGutters>
         <Photos />
       </Container>
-
+      <TopButton />
     </Box>
   );
 }
