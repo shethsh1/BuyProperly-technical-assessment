@@ -75,5 +75,6 @@ export const photoSlice = createSlice({
 export default photoSlice.reducer
 
 export type {
-  Photo
+  Photo,
+  EndPoint
 }
