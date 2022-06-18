@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BuyProperly-technical-assessment/static/css/main.9a11eb4c.css",
+    "main.js": "/BuyProperly-technical-assessment/static/js/main.b706e01b.js",
+    "index.html": "/BuyProperly-technical-assessment/index.html",
+    "main.9a11eb4c.css.map": "/BuyProperly-technical-assessment/static/css/main.9a11eb4c.css.map",
+    "main.b706e01b.js.map": "/BuyProperly-technical-assessment/static/js/main.b706e01b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a11eb4c.css",
+    "static/js/main.b706e01b.js"
+  ]
+}
