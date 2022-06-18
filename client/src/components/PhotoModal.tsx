@@ -34,9 +34,9 @@ export default function PhotoDialog({
     <Dialog
       TransitionComponent={Zoom}
       onClose={handleClose}
+      maxWidth="lg"
       aria-labelledby="customized-dialog-title"
       open={open}
-      maxWidth="lg"
       PaperProps={{
         style: {
           backgroundColor: 'transparent',

@@ -17,17 +17,17 @@ import { GROW_TIMEOUT } from '../constants'
 
 export default function Photos() {
 
-  const { photos, loadingPhotos, tabSelected } = useAppSelector(state => state.photo)
+  const { photos, loadingPhotos } = useAppSelector(state => state.photo)
   let timeout = GROW_TIMEOUT
   const dispatch = useAppDispatch()
 
   useEffect(() => {
     const fetchData = async () => {
-      await dispatch(fetchPhotos(tabSelected)).unwrap()
+      await dispatch(fetchPhotos('animals')).unwrap()
     }
     fetchData()
 
-  }, [])
+  }, [dispatch])
 
   if (loadingPhotos) {
     return (
