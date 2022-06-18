@@ -37,7 +37,12 @@ export default function Photo({
   timeout
 }: props) {
   const [open, setOpen] = React.useState(false);
-  const image: string = imageUrl.FullSize
+  let image: string
+  if (process.env.NODE_ENV === 'production') {
+    image = `https://images.weserv.nl/?url=${imageUrl.FullSize}`
+  } else {
+    image = imageUrl.FullSize
+  }
 
   const handleClickOpen = () => {
     setOpen(true);
